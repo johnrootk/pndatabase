@@ -11,6 +11,7 @@ class PNDatabaseModelOutfit extends JModelItem
               try{
                   // Create a new query object.
 		  $db = $this->getDBo();
+		  
                   $query = $db->getQuery(true);
 
                   $query->select('#__PNDatabase_outfits.*, #__PNDatabase_wishingpots.name AS wpot');

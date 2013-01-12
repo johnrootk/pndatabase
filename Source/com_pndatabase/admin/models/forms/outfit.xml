@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+  <fieldset>
+    <field
+      name="id"
+      type="hidden"
+    />
+    <field
+      name="name"
+      type="text"
+      label="COM_PNDATABASE_OUTFIT_FIELD_NAME_LABEL"
+      description="COM_PNDATABASE_OUTFIT_FIELD_NAME_DESC"
+      size="40"
+    />
+    <field
+      name="pictureface"
+      type="media"
+      label="COM_PNDATABASE_OUTFIT_FIELD_PICTUREFACE_LABEL"
+      description="COM_PNDATABASE_OUTFIT_FIELD_PICTUREFACE_DESC"
+      directory="PNDatabase/outfitface"
+      preview="true"
+    />
+    <field
+      name="picturepose"
+      type="media"
+      label="COM_PNDATABASE_OUTFIT_FIELD_PICTUREPOSE_LABEL"
+      description="COM_PNDATABASE_OUTFIT_FIELD_PICTUREPOSE_DESC"
+      directory="PNDatabase/outfitpose"
+      preview="true"
+    />
+    <field
+      name="gender"
+      type="list"
+      label="COM_PNDATABASE_OUTFIT_FIELD_GENDER_LABEL"
+      description="COM_PNDATABASE_OUTFIT_FIELD_GENDER_DESC"
+    >
+	<option value="m">Male</option>
+	<option value="f">Female</option>
+    </field>
+    <field
+      name="release"
+      type="list"
+      label="COM_PNDATABASE_OUTFIT_FIELD_RELEASE_LABEL"
+      description="COM_PNDATABASE_OUTFIT_FIELD_RELEASE_DESC"
+    >
+	<option value="Earth">Earth</option>
+	<option value="Fire">Fire</option>
+	<option value="Healing">Healing</option>
+	<option value="Illusion">Illusion</option>
+	<option value="Lightning">Lightning</option>
+	<option value="Sealing">Sealing</option>
+	<option value="Taijutsu">Taijutsu</option>
+	<option value="Tool">Tool</option>
+	<option value="Water">Water</option>
+	<option value="Wind">Wind</option>
+    </field>
+    <field
+      name="collstrength"
+      type="text"
+      label="COM_PNDATABASE_OUTFIT_FIELD_COLLSTRENGTH_LABEL"
+      description="COM_PNDATABASE_OUTFIT_FIELD_COLLSTRENGTH_DESC"
+      size="40"
+    />
+    <field
+      name="collagility"
+      type="text"
+      label="COM_PNDATABASE_OUTFIT_FIELD_COLLAGILITY_LABEL"
+      description="COM_PNDATABASE_OUTFIT_FIELD_COLLAGILITY_DESC"
+      size="40"
+    />
+    <field
+      name="collstamina"
+      type="text"
+      label="COM_PNDATABASE_OUTFIT_FIELD_COLLSTAMINA_LABEL"
+      description="COM_PNDATABASE_OUTFIT_FIELD_COLLSTAMINA_DESC"
+      size="40"
+    />
+    <field
+      name="initstrength"
+      type="text"
+      label="COM_PNDATABASE_OUTFIT_FIELD_INITSTRENGTH_LABEL"
+      description="COM_PNDATABASE_OUTFIT_FIELD_INITSTRENGTH_DESC"
+      size="40"
+    />
+    <field
+      name="initagility"
+      type="text"
+      label="COM_PNDATABASE_OUTFIT_FIELD_INITAGILITY_LABEL"
+      description="COM_PNDATABASE_OUTFIT_FIELD_INITAGILITY_DESC"
+      size="40"
+    />
+    <field
+      name="initstamina"
+      type="text"
+      label="COM_PNDATABASE_OUTFIT_FIELD_INITSTAMINA_LABEL"
+      description="COM_PNDATABASE_OUTFIT_FIELD_INITSTAMINA_DESC"
+      size="40"
+    />
+    <field
+      name="growthstrength"
+      type="text"
+      label="COM_PNDATABASE_OUTFIT_FIELD_GROWTHSTRENGTH_LABEL"
+      description="COM_PNDATABASE_OUTFIT_FIELD_GROWTHSTRENGTH_DESC"
+      size="40"
+    />
+    <field
+      name="growthagility"
+      type="text"
+      label="COM_PNDATABASE_OUTFIT_FIELD_GROWTHAGILITY_LABEL"
+      description="COM_PNDATABASE_OUTFIT_FIELD_GROWTHAGILITY_DESC"
+      size="40"
+    />
+    <field
+      name="growthstamina"
+      type="text"
+      label="COM_PNDATABASE_OUTFIT_FIELD_GROWTHSTAMINA_LABEL"
+      description="COM_PNDATABASE_OUTFIT_FIELD_GROWTHSTAMINA_DESC"
+      size="40"
+    />
+    <field
+      name="bmvstrength"
+      type="text"
+      label="COM_PNDATABASE_OUTFIT_FIELD_BMVSTRENGTH_LABEL"
+      description="COM_PNDATABASE_OUTFIT_FIELD_BMVSTRENGTH_DESC"
+      size="40"
+    />
+    <field
+      name="bmvagility"
+      type="text"
+      label="COM_PNDATABASE_OUTFIT_FIELD_BMVAGILITY_LABEL"
+      description="COM_PNDATABASE_OUTFIT_FIELD_BMVAGILITY_DESC"
+      size="40"
+    />
+    <field
+      name="bmvstamina"
+      type="text"
+      label="COM_PNDATABASE_OUTFIT_FIELD_BMVSTAMINA_LABEL"
+      description="COM_PNDATABASE_OUTFIT_FIELD_BMVSTAMINA_DESC"
+      size="40"
+    />
+    <field
+      name="pot"
+      type="sql"
+      label="COM_PNDATABASE_OUTFIT_FIELD_POT_LABEL"
+      description="COM_PNDATABASE_OUTFIT_FIELD_POT_DESC"
+      query="SELECT id,name FROM #__PNDatabase_wishingpots"
+      key_field="id"
+      value_field="name"
+    />
+    <field
+      name="chinese"
+      type="checkbox"
+      label="COM_PNDATABASE_OUTFIT_FIELD_CHINESE_LABEL"
+      description="COM_PNDATABASE_OUTFIT_FIELD_CHINESE_DESC"
+      value="1"
+    />
+  </fieldset>
+</form>

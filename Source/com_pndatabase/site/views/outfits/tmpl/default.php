@@ -3,6 +3,12 @@
 defined('_JEXEC') or die;
 JHtml::_('behavior.tooltip');
 JFormHelper::addFieldPath(JPATH_COMPONENT . '/models/fields');
+jimport('joomla.application.component.helper');
+?>
+
+<?php
+require_once( JPATH_COMPONENT.DS.'helpers'.DS.'topmenu.php' );
+echo PNDatabaseHelperTopmenu::getMenu();
 ?>
 <div class="db-frame">
     <form action="<?php echo JRoute::_('index.php?option=com_pndatabase'); ?>" method="post" name="adminForm">

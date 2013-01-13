@@ -1,7 +1,9 @@
 <?php
 // No direct access to this file
 defined('_JEXEC') or die;
-$MAX_OUTFIT = 37;
+jimport('joomla.application.component.helper');
+$params = JComponentHelper::getParams('com_pndatabase');
+$MAX_OUTFIT = $params->get('outfit_maxlevel');
 ?>
 <table class="db-table" style="width:60%; margin: auto;">
     <tr>

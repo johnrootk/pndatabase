@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metadata>
-  <layout title="COM_PNDATABASE_OUTFIT_LIST_DEFAULT_TITLE">
-    <message>COM_PNDATABASE_OUTFIT_LIST_DEFAULT_DESC</message>
+  <layout title="COM_PNDATABASE_OUTFITS_LIST_DEFAULT_TITLE">
+    <message>COM_PNDATABASE_OUTFITS_LIST_DEFAULT_DESC</message>
   </layout>
 </metadata>

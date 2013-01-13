@@ -32,6 +32,10 @@ class PNDatabaseViewOutfits extends JView
         JToolBarHelper::deleteListX('', 'outfits.delete');
         JToolBarHelper::editListX('outfit.edit');
         JToolBarHelper::addNewX('outfit.add');
+	JToolBarHelper::divider();
+	//$bar = JToolBar::getInstance('toolbar');
+	//$bar->appendButton('Popup', 'options', 'COM_PNDATABASE_TOOLBAR_SETTINGS', 'index.php?option=com_pndatabase&amp;view=config&amp;tmpl=component', 850, 400);
+	JToolBarHelper::preferences('com_pndatabase', 450, 570, "COM_PNDATABASE_SETTINGS");
     }
 }
 ?>

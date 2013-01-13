@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fieldset name="overall" label="COM_PNDATABASE_OVERALL_LABEL" description="COM_PNDATABASE_OVERALL_DESC">
+	<field
+	    name="player_maxlevel"
+	    type="text"
+	    class="inputbox"
+	    size="6"
+	    default="110"
+	    label="COM_PNDATABASE_FIELD_PLAYERMAXLEVEL_LABEL"
+	    description="COM_PNDATABASE_FIELD_PLAYERMAXLEVEL_DESC"
+	/>
+	<field
+	    name="outfit_maxlevel"
+	    type="text"
+	    class="inputbox"
+	    size="6"
+	    default="37"
+	    label="COM_PNDATABASE_FIELD_OUTFITMAXLEVEL_LABEL"
+	    description="COM_PNDATABASE_FIELD_OUTFITMAXLEVEL_DESC"
+	/>
+	<field 
+	    name="parent_id"
+	    type="menuitem"
+	    class="inputbox"
+	    size="6"
+	    multiple="true"
+	    label="COM_PNDATABASE_FIELD_MENUPARENT_LABEL"
+	    description="COM_PNDATABASE_FIELD_MENUPARENT_DESC"
+	/>
+    </fieldset>
+</config>
